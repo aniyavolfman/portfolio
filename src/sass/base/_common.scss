@@ -1,0 +1,26 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+  color: $primary;
+  font-family: $main-font;
+  font-size: 20px;
+  font-weight: $main-font-weight;
+  line-height: 1.5;
+  background: $bg_primary;
+  cursor: url('../../cursor2.png'), auto;
+  & .main__container {
+    margin-top: 82px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: $secondary;
+    box-shadow: 4px 4px 100px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+}
+
+button {
+  padding: 0;
+  background-color: inherit;
+  border: none;
+}
+
