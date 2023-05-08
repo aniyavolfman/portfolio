@@ -1,6 +1,28 @@
 .hero_text {
   margin-bottom: 20px;
 }
+
 .hero__title {
   color: $title_hero;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  transition: all $cubic-bezier 0.3s;
+  &:hover{
+    background-color: $button;
+  }
+  &:hover svg path{
+    fill: $secondary;
+  }
+}
+
+.hero__links{
+    display: flex;
+    gap: 20px;
 }
