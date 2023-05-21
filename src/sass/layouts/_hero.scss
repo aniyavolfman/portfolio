@@ -1,3 +1,14 @@
+.hero {
+  padding-top: 20px;
+}
+
+.hero__container {
+  background-image: url(../images/hero.svg);
+  background-repeat: no-repeat;
+  background-position: right 100px center;
+  background-size: contain;
+}
+
 .hero_text {
   margin-bottom: 20px;
 }
@@ -14,15 +25,19 @@
   height: 38px;
   border-radius: 50%;
   transition: all $cubic-bezier 0.3s;
-  &:hover{
+  &:hover {
     background-color: $button;
   }
-  &:hover svg path{
+  &:hover svg path {
     fill: $secondary;
   }
 }
 
-.hero__links{
-    display: flex;
-    gap: 20px;
+.hero__links {
+  display: flex;
+  gap: 20px;
+}
+.hero__thumb-svg {
+  width: 100px;
+  height: 100px;
 }

@@ -24,7 +24,7 @@
   & li {
     padding: 20px;
     background: $secondary;
-    box-shadow: 4px 4px 100px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     flex-basis: calc((100% - 20px) / 2);
   }
@@ -61,3 +61,4 @@
 .portfolio__button{
     max-width: 100px;
 }
+
