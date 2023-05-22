@@ -33,10 +33,15 @@
   }
 }
 
+.hero__list--links {
+  display: flex;
+}
+
 .hero__links {
   display: flex;
   gap: 20px;
 }
+
 .hero__thumb-svg {
   width: 100px;
   height: 100px;

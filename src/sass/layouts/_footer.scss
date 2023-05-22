@@ -1,0 +1,22 @@
+.footer {
+    margin-bottom: 20px;
+    & > .footer_container {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.footer__list--links {
+  display: flex;
+}
+
+.footer__links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__text{
+    font-size: 12px;
+}
