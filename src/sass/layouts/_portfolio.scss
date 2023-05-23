@@ -76,3 +76,40 @@
     max-width: 100px;
 }
 
+.anchor {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .anchor {
+    z-index: 3;
+    position: fixed;
+    display: flex;
+    right: 30px;
+    bottom: 30px;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #f1b8d2;
+    letter-spacing: 0.06em;
+    line-height: 1.88;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: inherit;
+    font-weight: bold;
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .anchor:hover, .anchor:focus {
+    background-color: #f1b8d2;
+    border: 1px solid #fff;
+  }
+}
+
+li.portfolio__list--back {
+  background-image: url(../images/Group1.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom 20px;
+}
