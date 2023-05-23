@@ -4,11 +4,14 @@
   justify-content: center;
   padding: 7px 15px;
   width: 100%;
-  min-width: 166px;
+  min-width: 200px;
   border-radius: 10px;
   font-family: inherit;
-  margin-top: 20px;
   transition: all $cubic-bezier 0.5s;
+  @include tablet {
+    margin-top: 20px;
+    min-width: 166px;
+  }
   &--pink {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);

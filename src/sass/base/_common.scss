@@ -3,11 +3,14 @@
 body {
   color: $primary;
   font-family: $main-font;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: $main-font-weight;
   line-height: 1.5;
   background: $bg_primary;
   cursor: url('../../cursor2.png'), auto;
+  @include desktop {
+    font-size: 20px;
+  }
   & .main__container {
     margin-top: 60px;
     padding-top: 30px;

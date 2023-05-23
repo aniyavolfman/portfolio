@@ -1,11 +1,11 @@
 .footer {
-    margin-bottom: 20px;
-    & > .footer_container {
-        margin-top: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
+  margin-bottom: 20px;
+  & > .footer_container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
 
 .footer__list--links {
@@ -17,6 +17,10 @@
   gap: 20px;
 }
 
-.footer__text{
-    font-size: 12px;
+.footer__text {
+  font-size: 12px;
+  text-align: right;
+  @include tablet {
+    text-align: left;
+  }
 }
