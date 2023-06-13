@@ -31,11 +31,32 @@
     box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     flex-basis: calc((100% - 20px) / 2);
+    transition: all cubic-bezier (0.4, 0, 0.2, 1) 0.3s;
+  }
+
+  & li:hover {
+    box-shadow: 1px 4px 20px -2px #0003;
+    transform: translateY(-2px);
   }
 }
 
-.portfolio__list--title-main {
+h3.portfolio__list--title-main {
   text-align: center;
+  animation: colorChange 3s infinite;
+  color: #fff;
+}
+
+@keyframes colorChange {
+  0% {
+    color: #f1b8d2;
+  }
+  50% {
+    color: aqua;
+  }
+
+  100% {
+    color: rgb(154, 85, 140);
+  }
 }
 
 .portfolio__list--title {
@@ -113,4 +134,45 @@ li.portfolio__list--back {
   background-image: url(../images/Group1.svg);
   background-repeat: no-repeat;
   background-position: 50% 98%;
+}
+
+.background {
+  position: relative;
+  z-index: 1;
+}
+
+.moving-square {
+  z-index: 0.5;
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+  position: absolute;
+  animation: moveSquare 40s infinite;
+  border: 4px solid #f1b8d2;
+  border-radius: 20px;
+}
+
+@include desktop {
+  @keyframes moveSquare {
+    0% {
+      left: 0;
+      top: 0;
+    }
+    25% {
+      right: 0;
+      top: 100px;
+    }
+    50% {
+      right: 200px;
+      bottom: 0;
+    }
+    75% {
+      left: 200px;
+      top: 400px;
+    }
+    100% {
+      left: 0;
+      top: 0;
+    }
+  }
 }

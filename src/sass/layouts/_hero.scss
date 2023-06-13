@@ -39,10 +39,25 @@
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  animation: colorChange 3s infinite;
+
   @include tablet {
     text-align: start;
     margin-top: 0;
     margin-bottom: 0;
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    color: #f1b8d2;
+  }
+  50% {
+    color: aqua;
+  }
+
+  100% {
+    color: rgb(154, 85, 140);
   }
 }
 
