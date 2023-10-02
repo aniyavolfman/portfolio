@@ -15,22 +15,22 @@ Feel free to explore the projects, dive into the code, and provide any feedback 
 
 ## My technology stack:
 
-•<img src="/images/w3_html5-ar21.png" height="30">
-•<img src="/images/CSS3-Interview-Questions-1.jpg" height="30">
-•<img src="/images/sass.png" height="30">
-•<img src="/images/java-script.jpg" height="30">
-•<img src="/images/1_jvXSiyAs8vZgT1PFV-bPQQ.png" height="30">
-•<img src="/images/reactjs-2.png" height="30">
-•<img src="/images/meta.png" height="30">
-•<img src="/images/8e909c88-4e83-4af4-b5b2-4a50a9b571f7-cover.png" height="30">
-•<img src="/images/1683961037831.png" height="30">
-•<img src="/images/завантаження2.jpg" height="30">
-•<img src="/images/завантаження.jpg" height="30">
-•<img src="/images/1_mp91A9RzagntGGjBnwu4Yw.png" height="30">
-•<img src="/images/beginners-guide-to-using-express-js-and-node-js-framework.png" height="30">
-•<img src="/images/strapi.jpg" height="30">
-•<img src="/images/1_-5w8bX-XiOtwdmhQ2W7_TA.png" height="30">
-•<img src="/images/1_acfAKaDI7uv5GyFnJmiPhA.png" height="30">
+•<img src="/src/images/w3_html5-ar21.png" height="30">
+•<img src="/src/images/CSS3-Interview-Questions-1.jpg" height="30">
+•<img src="/src/images/sass.png" height="30">
+•<img src="/src/images/java-script.jpg" height="30">
+•<img src="/src/images/1_jvXSiyAs8vZgT1PFV-bPQQ.png" height="30">
+•<img src="/src/images/reactjs-2.png" height="30">
+•<img src="/src/images/meta.png" height="30">
+•<img src="/src/images/8e909c88-4e83-4af4-b5b2-4a50a9b571f7-cover.png" height="30">
+•<img src="/src/images/1683961037831.png" height="30">
+•<img src="/src/images/завантаження2.jpg" height="30">
+•<img src="/src/images/завантаження.jpg" height="30">
+•<img src="/src/images/1_mp91A9RzagntGGjBnwu4Yw.png" height="30">
+•<img src="/src/images/beginners-guide-to-using-express-js-and-node-js-framework.png" height="30">
+•<img src="/src/images/strapi.jpg" height="30">
+•<img src="/src/images/1_-5w8bX-XiOtwdmhQ2W7_TA.png" height="30">
+•<img src="/src/images/1_acfAKaDI7uv5GyFnJmiPhA.png" height="30">
 
 ## Some projects:
 
