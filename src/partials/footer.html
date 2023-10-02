@@ -67,6 +67,10 @@
       </li>
     </ul>
     </address>
-    <p class="footer__text">Copyright &copy;2023 Anna Volfman</p>
+    <p class="footer__text" id="currentYear"></p>
+    <script>
+    const currentYear = new Date().getFullYear();
+    document.getElementById("currentYear").innerHTML = `Copyright &copy; ${currentYear} Anna Volfman`;
+  </script>
   </div>
 </footer>
