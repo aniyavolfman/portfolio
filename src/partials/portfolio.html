@@ -75,8 +75,10 @@
         <ul>
           <li class="portfolio__list--project-list">
             <p class="portfolio__list--project">Go-volunteer</p>
-            <p>
+            <p class="intro">
               I developed a responsive and adaptive site for volunteers.
+            </p>
+            <p class="more-text">
               Collaborated closely with developers, designers, QA and PM. We
               used SASS, Parcel, Git, WordPress, BEM and SCRUM methodologies.
               The goal of this project was to help Ukrainian volunteers and
@@ -84,6 +86,9 @@
               correctly and guide them on conducting their activity following
               Ukrainian law.
             </p>
+            <button id="show-more" onclick="toggleText()" type="button" class="more-button">
+              Read more
+            </button>
             <p>
               <b>Technology stack:</b> JavaScript, HTML, CSS, CSS Grid Layout,
               Adaptive/Responsive design, SASS, Parcel, WordPress, GIT.
@@ -368,4 +373,18 @@
     </ul>
   </div>
   <div class="moving-square"></div>
+  <script>
+    function toggleText() {
+      var moreText = document.querySelector('.more-text');
+      var buttonText = document.querySelector('#show-more');
+
+      if (moreText.style.display === 'none' || moreText.style.display === '') {
+        moreText.style.display = 'block';
+        buttonText.innerText = 'Read less';
+      } else {
+        moreText.style.display = 'none';
+        buttonText.innerText = 'Read more';
+      }
+    }
+  </script>
 </section>
