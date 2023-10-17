@@ -9,9 +9,23 @@
 
 .portfolio__wrapper {
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
+
+  & ul {
+    display: flex;
+    gap: 15px;
+    & li {
+      transition: all $cubic-bezier 0.3s;
+    }
+    & li:hover,
+    &li:focus {
+      color: rgb(154, 85, 140);
+    }
+  }
 }
+
 .portfolio__title {
   color: $title_hero;
   margin-left: 10px;
