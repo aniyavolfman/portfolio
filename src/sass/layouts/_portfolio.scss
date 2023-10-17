@@ -31,13 +31,13 @@
     box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     flex-basis: calc((100% - 20px) / 2);
-    transition: all cubic-bezier (0.4, 0, 0.2, 1) 0.3s;
+    // transition: all cubic-bezier (0.4, 0, 0.2, 1) 0.3s;
   }
 
-  & li:hover {
-    box-shadow: 1px 4px 20px -2px #0003;
-    transform: translateY(-2px);
-  }
+  // & li:hover {
+  //   box-shadow: 1px 4px 20px -2px #0003;
+  //   transform: translateY(-2px);
+  // }
 }
 
 h3.portfolio__list--title-main {
@@ -51,11 +51,11 @@ h3.portfolio__list--title-main {
     color: #f1b8d2;
   }
   50% {
-    color: aqua;
+    color: rgb(154, 85, 140);
   }
 
   100% {
-    color: rgb(154, 85, 140);
+    color: #f1b8d2;
   }
 }
 
