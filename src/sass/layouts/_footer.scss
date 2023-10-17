@@ -7,6 +7,12 @@
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: $bg;
+    flex-direction: column;
+    gap: 15px;
+    @include tablet {
+      flex-direction: row;
+      gap: 0;
+    }
   }
 
   & > .footer_container.dark-mode {

@@ -1,6 +1,10 @@
 .header_container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+
+  @include tablet {
+    justify-content: flex-end;
+  }
 }
 
 .header_list {
