@@ -12,7 +12,7 @@ body {
     font-size: 20px;
   }
   & .main__container {
-    margin-top: 60px;
+    margin-top: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
     background: $secondary;
@@ -20,6 +20,14 @@ body {
     border-radius: 30px;
     z-index: 1;
     background-color: $bg;
+
+    @include tablet {
+      margin-top: 30px;
+    }
+
+    @include desktop {
+      margin-top: 60px;
+    }
   }
 
   & .main__container.dark-mode {
