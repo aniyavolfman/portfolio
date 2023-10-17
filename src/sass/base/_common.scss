@@ -19,7 +19,16 @@ body {
     box-shadow: 4px 4px 100px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     z-index: 1;
+    background-color: $bg;
   }
+
+  & .main__container.dark-mode {
+    background-color: $bg_black;
+  }
+}
+
+body.dark-mode {
+  color: $primary_black;
 }
 
 button {
@@ -27,4 +36,3 @@ button {
   background-color: inherit;
   border: none;
 }
-
