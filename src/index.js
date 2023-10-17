@@ -24,7 +24,7 @@ function getTheme() {
     footer.classList.add(savedTheme);
   }
   if (body.classList.contains('dark-mode')) {
-    themeToggle.textContent = 'Light mode';
+    themeToggle.textContent = 'Bright mode';
   } else {
     themeToggle.textContent = 'Dark mode';
   }
