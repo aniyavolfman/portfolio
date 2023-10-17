@@ -71,7 +71,7 @@ function toggleTheme() {
   footer.classList.toggle('dark-mode');
 
   if (body.classList.contains('dark-mode')) {
-    themeToggle.textContent = 'Light mode';
+    themeToggle.textContent = 'Bright mode';
   } else {
     themeToggle.textContent = 'Dark mode';
   }
